@@ -9,7 +9,7 @@ class Ofbuild < Formula
 
   def install
     system "g++", 
-          # "-std=c++17",
+          "-std=c++17",
           "-I#{Formula["yaml-cpp"].opt_include}",
           "-I#{Formula["fmt"].opt_include}",
           "-L#{Formula["yaml-cpp"].opt_lib}",
