@@ -9,13 +9,13 @@ class Ofbuild < Formula
 
   def install
     system "g++", 
-          "-std=c++17",
+          # "-std=c++17",
           "-I#{Formula["yaml-cpp"].opt_include}",
           "-I#{Formula["fmt"].opt_include}",
           "-L#{Formula["yaml-cpp"].opt_lib}",
           "-L#{Formula["fmt"].opt_lib}",
-          "-lfmt",
-          "-lyaml-cpp",
+          # "-lfmt",
+          # "-lyaml-cpp",
           "src/main.cpp",
           "-o",
           "#{prefix}/bin/ofbuild",
