@@ -17,7 +17,8 @@ class Ofbuild < Formula
           "-lfmt",
           "-lyaml-cpp",
           "src/main.cpp",
-          "-o#{bin}/ofbuild",
+          "-o",
+          "#{bin}",
           "-O3"
   end
 end  
