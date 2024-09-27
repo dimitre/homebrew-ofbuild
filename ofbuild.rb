@@ -18,8 +18,8 @@ class Ofbuild < Formula
           "-lyaml-cpp",
           "src/main.cpp",
           "-o",
-          # "#{prefix}/bin/ofbuild",
-          "#{bin}/ofbuild"
+          
+          "#{bin}/ofbuild",
           "-O3"
   end
 end  
