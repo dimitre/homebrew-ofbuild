@@ -1,8 +1,8 @@
 class Ofbuild < Formula
   desc "Simple command-line tool for sending OSC packet"
   homepage "https://github.com/dimitre/ofbuild"
-  url "https://github.com/dimitre/ofbuild/archive/refs/tags/v0.0.8.tar.gz"
-  sha256 "844d4d8b92061c91dbaaa084147d977fb8075ed0df4ffff408bd1f8d065f9fb8"
+  url "https://github.com/dimitre/ofbuild/archive/refs/tags/v0.0.9.tar.gz"
+  sha256 "363c76c751305ea092601c3c8665a0432ed886fa9543ba0a4113bd45e121a776"
   depends_on "yaml-cpp"
   depends_on "fmt"
 
